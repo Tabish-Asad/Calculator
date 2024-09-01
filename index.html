@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="container">
+
+    <center>
+    <div id="main">
+        <div class="row" >
+            <input type="text" id="display">
+        </div>
+        <div class="row">
+            <button onclick="clearDisplay()" class="button">AC</button>
+            <button onclick="del()"  class="button">x</button>
+            <button onclick="add_on_display('**')"   class="button">**</button>
+            <button onclick="add_on_display('%')"   class="button">%</button>
+        </div>
+        <div class="row">
+            <button onclick="add_on_display('7')"   class="button">7</button>
+            <button onclick="add_on_display('8')"   class="button">8</button>
+            <button onclick="add_on_display('9')"   class="button">9</button>
+            <button onclick="add_on_display('+')"   class="button">+</button>
+        </div>
+        <div class="row">
+            <button onclick="add_on_display('4')"  class="button">4</button>
+            <button onclick="add_on_display('5')"  class="button">5</button>
+            <button onclick="add_on_display('6')"  class="button">6</button>
+            <button onclick="add_on_display('-')"  class="button">-</button>
+        </div>
+        <div class="row">
+            <button onclick="add_on_display('1')" class="button">1</button>
+            <button onclick="add_on_display('2')" class="button">2</button>
+            <button onclick="add_on_display('3')" class="button">3</button>
+            <button onclick="add_on_display('*')" class="button">*</button>
+        </div>
+        <div class="row">
+            <button onclick="add_on_display('0')" class="button">0</button>
+            <button onclick="add_on_display('.')" class="button">.</button>
+            <button onclick="calculateResult()" class="button">=</button>
+            <button onclick="add_on_display('/')" class="button">/</button>
+        </div>
+ 
+    </div>
+</center>
+
+
+    <script src="./index.js"></script>
+</body>
+</html> 
+
+
+
+
+

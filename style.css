@@ -1,0 +1,42 @@
+#container{
+    background-color: rgb(101, 127, 142);
+    margin-top: 200px;
+}
+
+.row{
+    text-align: center;
+    
+    
+}
+.button{
+    color: white;
+    border: none;
+    margin:1px;
+    width: 42px;
+    height: 40px; 
+    border: 2px solid rgb(26, 53, 68);
+    background: transparent;
+    box-shadow: -8px , -8px, 15px rgba(255, 255,255, 0.1 );
+    border-radius:35px ;
+    
+}
+#display{
+    font-size: 18px;
+    width: 173px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid rgb(19, 19, 15);
+    margin: 7px;
+    background: rgb(42, 47, 47);
+    color: rgb(10, 233, 170);
+}
+#main{
+    height: 280px;
+     width: 200px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+    
